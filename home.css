@@ -1,0 +1,164 @@
+/* setting global variables */
+:root{
+    --primary:blue;
+    --secondary:white;
+    --background:rgba(161, 247, 250, 0.185);
+    --blue:rgb(20, 82, 153);
+    --btn:rgb(59, 175, 253);
+    --span:rgb(110, 234, 238);
+}
+/* setting universal property */
+*{
+    margin: 10px;
+    padding: 12px;
+}
+/* first part starts */
+.first>img{
+    float: right;
+
+}
+/* discount part ko lagii
+.disc{
+    border: 1px solid ;
+    width: 8%;
+  height: 30px;
+  font-size: smaller; 
+  border-radius: 12px 100px 100px 100px;
+  position: relative;
+  left:800px;
+}
+.disc>b,.d{
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid ;
+    white-space: nowrap;
+    float: inline-start;
+    
+} */
+
+
+/* suru ko element ko lagii */
+.parent{
+    border: 1px solid;
+}
+.first{
+background-color: var(--background);
+}
+/* round border vako image ko lagi */
+.img{
+    height:200px;
+    border: 2px solid none;
+    border-radius: 20px 20px 100px 100px ;
+    padding: 10px;
+    background-color: rgb(184, 240, 223);
+    box-shadow: 2px 6px rgb(147, 190, 204);
+    
+}
+span{
+    color: rgb(110, 234, 238);
+    text-transform: capitalize;
+    font-weight: 900px;
+}
+h1{
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+h1>span{
+    text-decoration: underline;
+}
+/* blue button ko lagi */
+.btn{
+    color: aliceblue;
+    background-color: var(--btn);
+    border: none;
+    border-radius: 35px;
+    text-transform: capitalize;
+}
+/* white button ko lagi */
+.button{
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    text-transform: capitalize;
+}
+/* first part ends */
+/* second part starts */
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--background);
+}
+.second>h1{
+    font-weight: 900px;
+}
+.second>p{
+    font-size: smaller;
+    word-wrap: break-word;
+}
+/* list ko lagi */
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+.li>img{
+    height: 80%;
+    width: 30px;
+    border-radius: 100%;
+}
+/* thats all for second part */
+/* aaba tird part */
+.third{
+    border: 1px solid green;
+}
+.txt1{
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align:start;
+    font-weight: 100px;
+}
+/* box part suru vayo */
+.box{
+    border: 2px solid blue;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+}
+/* this for image of stethoscope */
+.all-box>img{
+    height: 40px;
+    display: flex;
+}
+.all-box {
+    border: 2px solid red;
+    padding: 12px;
+    font-size: medium;
+    text-align: center;
+    
+}
+.all-box>span,button{
+    word-wrap:break-word;
+    display: flex;
+}
+.bt{
+    border: none;
+    background-color:var(--span) ;
+    color: white;
+    border-radius:20px  ;
+}
+.all-box>p{
+    text-align: justify;
+
+}
+.all-box:hover{
+    background-color: var(--background);
+    color: black;
+}
