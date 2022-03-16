@@ -110,11 +110,8 @@ ul{
 }
 /* thats all for second part */
 /* aaba tird part */
-.third{
-    border: 1px solid green;
-}
+
 .txt1{
-    border: 2px solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,7 +123,6 @@ ul{
 }
 /* box part suru vayo */
 .box{
-    border: 2px solid blue;
     display:grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
@@ -162,3 +158,55 @@ ul{
     background-color: var(--background);
     color: black;
 }
+/* end of the service part */
+
+
+/* aaba gallery part start vayo */
+
+.fst-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-p>h3,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform:capitalize ;
+}
+.first-p>h3{
+    font-weight: 900px;
+}
+/* image ko laggi aaba  */
+.gimgg{
+    margin: 0;
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    background-color: green;
+}
+/* .gallery>img:hover{
+    transform: scale(2,2);
+    transition: .3s transform;
+  
+  } */
+.gimg-1>img{
+    height: 240px;
+}
+.gimg-2>img{
+    height: 340px;
+    width: 100%;
+}
+.gimg-3>img{
+    height: 240px;
+    width: 90%;
+}
+.gimg-4>img{
+    height: 240px;
+    width: 90%;
+}
+.gimg-5>img{
+    height: 440px;
+    width: 90%;
+}
+/* yp chaii tyo gallery ko lagi */
